@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,112 @@
     <title>Titulo</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
     <div class="sidebar">
         <div class="sidebar-brand">
-            <h1><span>Empresa</span></h1>
+            <h1><img src="icons/exclamation-triangle.svg" width="32" alt="Ajuda">
+                <span>Empresa</span>
+            </h1>
         </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="icons/question-square.svg" width="15" alt="">
+                        <span>
+                            Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="icons/question-square.svg" width="15" alt="">
+                        <span>Projetos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="icons/question-square.svg" width="15" alt="">
+                        <span>Produtos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="icons/question-square.svg" width="15" alt="">
+                        <span>Ordens</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="icons/calendar3.svg" width="15" alt="">
+                        <span>Agenda</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
     </div>
 
 
+
+    <div class="main-content">
+        <header>
+
+            <h1>
+                <label for=""><span class="cls-span"></span></label>
+                Dashboard
+            </h1>
+
+            <div class="cls-search">
+                <span class="cls-span"></span>
+                <input type="search" class="cls-btn" name="procurar" id="iptProcurar" placeholder="Pesquisar">
+            </div>
+
+            <div class="cls-user">
+                <img src="icons/person-square.svg" width="40" alt="nome usuario">
+                <div>
+                    <h4>Usuario logado</h4>
+                    <small>Perfil usuario</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cls-card">
+                <div>01</div>
+                <h1>Projetos</h1>
+                <div>
+                    <div class="cls-span-usuario"></div>
+                </div>
+            </div>
+            <div class="cls-card">
+                <div>02</div>
+                <h1>Projetos</h1>
+                <div>
+                    <div class="cls-span-usuario"></div>
+                </div>
+            </div>
+            <div class="cls-card">
+                <div>03</div>
+                <h1>Projetos</h1>
+                <div>
+                    <div class="cls-span-usuario"></div>
+                </div>
+            </div>
+            <div class="cls-card">
+                <div>04</div>
+                <h1>Projetos</h1>
+                <div>
+                    <div class="cls-span-usuario"></div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>

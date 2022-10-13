@@ -1,18 +1,14 @@
+/* BÁSICO */
+
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-}
-
-ul {
     list-style-type: none;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
 
 .cls-btn {
     border: 1px solid #ccc;
@@ -24,5 +20,49 @@ a {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 5px;
-    box-shadow: 3px 3px 9px #ccc;
+}
+
+/* PERSONALIZADO */
+/* Body {
+    background-color: #666;
+} */
+
+.sidebar {
+    width: 345px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(255, 0, 0, 5)
+}
+
+.sidebar-brand {
+    height: 90px;
+    padding: 1rem 0rem 1rem 2rem ;
+    color: #fff;
+}
+
+.sidebar-brand span{
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.sidebar-menu li{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.sidebar-menu a{
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.sidebar-menu a span:first-child {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+.main-content{
+    margin-left: 345px;
 }
